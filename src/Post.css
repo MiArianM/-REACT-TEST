@@ -1,0 +1,20 @@
+.posts-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.post-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  h2 {
+    height: 12rem;
+  }
+}
+
+.post-details {
+  padding: 20px;
+}

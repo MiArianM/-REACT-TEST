@@ -1,0 +1,35 @@
+.slider-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.slick-slide img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #000;
+}
+
+.slick-dots li button:before {
+  color: #000;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #ff0000;
+}
+.slick-list {
+  background-color: #faf8f8;
+  transition: 0.75s all;
+}
+.slick-list:hover {
+  background-color: rgb(220, 238, 235);
+}
